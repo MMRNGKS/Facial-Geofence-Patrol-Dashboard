@@ -46,7 +46,7 @@ const Dashboard = () => {
   
     // Set default sorting to timestamp in ascending order
     setSortField('timestamp');
-    setSortOrder('asc');
+    setSortOrder('desc');
   
     return () => unsubscribe();
   }, []);
